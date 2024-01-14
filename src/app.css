@@ -1,0 +1,113 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #E9E9ED;
+  color:  #1F1F1F;
+  margin: 20px;
+  text-align:center;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+  color:  #abe8fc;
+}
+
+button {
+  padding: 0.5em 1em;
+  background-color: transparent; 
+  border: 2px solid #1F1F1F; 
+  border-radius: 20px; 
+  font-weight: bold;
+  font-size: 15px;
+  color: #1F1F1F;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  box-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+}
+
+input:not([type="checkbox"]):focus {
+  outline: none;
+  box-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+}
+
+input:not([type="checkbox"]) {
+  padding: 0.5em;
+  background-color: transparent; 
+  margin: 1em;
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid #1F1F1F;
+  color: #1F1F1F;
+}
+
+select {
+  text-align: center;
+  padding: 0.5em;
+  background-color: transparent; 
+  margin: 1em;
+  border-radius: 20px;
+  border: 2px solid #1F1F1F;
+  color: #1F1F1F;
+}
+
+select:focus {
+  outline: none;
+  border-color: #1F1F1F;
+  background-color: transparent;
+  box-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+}
+
+.contenedor {
+  display: flex;
+}
+
+.contenedor table{
+  flex: 30%;
+}
+
+.contenedor div {
+  flex: 70%;
+  margin-left: 10px;
+}
+
+.filtrosContenedor {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px;
+  padding: 2px 10px;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+}
+
+li input {
+  margin: 10px;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 75px 20px 0px 20px;
+  border-radius: 1em;
+  overflow: hidden;
+  height: 100%;
+}
+
+th {
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+td {
+  padding: 10px;
+}
